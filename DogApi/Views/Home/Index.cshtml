@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "首頁";
+} 
+
+<div class="row">
+    <div class="col-12 text-justify" style="margin:20px 0 0 15px;">
+        <!-- 注意ActionLink多載設定 -->
+        @Html.ActionLink("點此取得圖片", "dogs", "api", null, new { @class = "btn btn-primary" })
+    </div>
+</div>
